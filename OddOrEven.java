@@ -1,16 +1,16 @@
 # even-or-odd
 import java.util.Scanner;
-class OddOrEven
+public class OddOrEven
 {
    public static void main(String args[])
    {
-      int x;
-      System.out.println("Enter an integer to check if it is odd or even ");
+      int z;
+     
       Scanner in = new Scanner(System.in);
-      x = in.nextInt();
-      if ( x % 2 == 0 )
-         System.out.println("You entered an even number.");
+      z = in.nextInt();
+      if ( z % 2 == 0 )
+         System.out.println("Even");
       else
-         System.out.println("You entered an odd number.");
+         System.out.println("Odd");
    }
 }
