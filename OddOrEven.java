@@ -10,6 +10,6 @@ public class OddOrEven
       else if (z%3==0)
          System.out.println("Odd");
       else
-         System.out.println("Invalid");
+         System.out.println("invalid");
    }
 }
